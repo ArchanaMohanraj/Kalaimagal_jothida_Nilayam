@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kalaimagal Jothidar Nilayam</title>
+<meta name="description" content="Traditional Vedic Astrology Guidance in Kovilpalayam, Coimbatore. Horoscope Reading, Marriage Matching, Career Guidance, Vastu and Spiritual Remedies.">
+<style>
+:root{
+--maroon:#7b1113;
+--gold:#d4af37;
+--cream:#fff8e7;
+--dark:#2d1b10;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Segoe UI,Arial,sans-serif;background:var(--cream);color:#333;line-height:1.7}
+header{background:linear-gradient(135deg,var(--maroon),var(--gold));color:#fff;text-align:center;padding:25px}
+header h1{font-size:2.3rem}
+nav{position:sticky;top:0;background:var(--dark);padding:12px;z-index:999}
+nav ul{display:flex;justify-content:center;gap:20px;list-style:none;flex-wrap:wrap}
+nav a{color:#fff;text-decoration:none;font-weight:600}
+.hero{padding:90px 20px;text-align:center;color:#fff;background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),url('https://images.unsplash.com/photo-1518568814500-bf0f8d125f46?auto=format&fit=crop&w=1600&q=80') center/cover}
+.hero h2{font-size:3rem;margin-bottom:15px}
+.hero p{max-width:900px;margin:auto}
+.btn{display:inline-block;background:var(--gold);color:#fff;padding:14px 28px;border-radius:30px;text-decoration:none;font-weight:bold;margin-top:20px}
+.section{padding:60px 20px;max-width:1200px;margin:auto}
+.title{text-align:center;color:var(--maroon);margin-bottom:25px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.card{
+    background:white;
+    padding:25px;
+    border-radius:14px;
+    box-shadow:0 3px 12px rgba(0,0,0,.12);
+    text-align:center;
+    border-top:4px solid var(--gold);
+    transition:0.3s;
+
+    height:220px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+.card h3{
+    color:var(--maroon);
+    font-size:20px;
+    line-height:1.5;
+    margin-bottom:12px;
+
+    min-height:90px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.card p{
+    color:#555;
+    font-size:16px;
+    font-weight:500;
+    line-height:1.6;
+}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:20px;text-align:center}
+.stat{background:white;padding:20px;border-radius:12px}
+.stat h3{color:var(--maroon);font-size:2rem}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}
+.gallery img{width:100%;height:230px;object-fit:cover;border-radius:12px}
+.contact{background:#f6edd0;border-radius:14px;padding:25px}
+form input,form textarea{width:100%;padding:12px;margin:8px 0;border:1px solid #ccc;border-radius:8px}
+form button{background:var(--maroon);color:white;border:none;padding:12px 25px;border-radius:8px}
+footer{background:var(--dark);color:white;text-align:center;padding:25px}
+.whatsapp{position:fixed;bottom:20px;right:20px;background:#25D366;color:#fff;width:65px;height:65px;border-radius:50%;display:flex;justify-content:center;align-items:center;text-decoration:none;font-size:30px}
+@media(max-width:768px){.hero h2{font-size:2rem}}
+/* FAQ Section */
+
+.faq-container{
+max-width:900px;
+margin:auto;
+}
+
+.faq-item{
+background:white;
+margin-bottom:15px;
+border-radius:12px;
+overflow:hidden;
+box-shadow:0 3px 12px rgba(0,0,0,.12);
+}
+
+.faq-question{
+width:100%;
+padding:18px;
+border:none;
+background:var(--maroon);
+color:white;
+text-align:left;
+font-size:16px;
+font-weight:600;
+cursor:pointer;
+transition:.3s;
+}
+
+.faq-question:hover{
+background:#5e0d0f;
+}
+
+.faq-answer{
+display:none;
+padding:20px;
+background:white;
+}
+
+.faq-item.active .faq-answer{
+display:block;
+}
+.floating-buttons{
+    position:fixed;
+    right:20px;
+    top:50%;
+    transform:translateY(-50%);
+
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+
+    z-index:9999;
+}
+
+.whatsapp-btn,
+.call-btn{
+    padding:14px 20px;
+    border-radius:50px;
+
+    color:white;
+    text-decoration:none;
+
+    font-weight:600;
+    font-size:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.25);
+
+    transition:0.3s;
+}
+
+.whatsapp-btn{
+    background:#25D366;
+}
+
+.call-btn{
+    background:linear-gradient(135deg,#7b1113,#d4af37);
+}
+
+.whatsapp-btn:hover,
+.call-btn:hover{
+    transform:scale(1.05);
+}
+
+@media(max-width:768px){
+
+    .floating-buttons{
+        right:10px;
+    }
+
+    .whatsapp-btn,
+    .call-btn{
+        padding:12px 16px;
+        font-size:14px;
+    }
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>கலைமகள் ஜோதிட நிலையம்</h1>
+<h2>🪔 KALAIMAGAL JOTHIDAR NILAYAM 🪔</h2>
+<p>Traditional Vedic Astrology Guidance for a Better Future</p>
+<p>பாரம்பரிய வேத ஜோதிட வழிகாட்டல் – வளமான எதிர்காலத்திற்காக</p>
+</header>
+
+<nav>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#remedies">Remedies</a></li>
+<li><a href="#reviews">Reviews</a></li>
+<li><a href="#faq">FAQ</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<section class="hero">
+<h2>✨ Let the Stars Guide Your Destiny</h2>
+<p>Trusted Astrology Consultation for Life, Marriage, Career, Business & Family Guidance</p>
+<a class="btn" href="https://wa.me/919092544455">📲 Book Consultation</a>
+</section>
+
+<section class="section" id="about">
+<h2 class="title">🌟 About Us | எங்களை பற்றி</h2>
+<p>
+
+கலைமகள் ஜோதிட நிலையம் என்பது 30+ ஆண்டுகள் அனுபவமிக்க பரம்பரை ஜோதிடர்
+<strong>N. மோகன்ராஜ்</strong> அவர்களால் நடத்தப்படும் நம்பகமான பாரம்பரிய ஜோதிட மையமாகும்.பாரம்பரிய வேத ஜோதிட முறைகளை அடிப்படையாகக் கொண்டு துல்லியமான ஜாதக கணிப்புகள், திருமண பொருத்தம், வாஸ்து ஆலோசனை, எண் கணித ஆலோசனை மற்றும் ஆன்மீக வழிகாட்டுதல்கள் வழங்கப்படுகின்றன.திருமணம், தொழில், வியாபாரம், கல்வி, வெளிநாட்டு வாய்ப்புகள், குடும்பம் மற்றும் உறவுகள் தொடர்பான பிரச்சினைகளுக்கு அனுபவமிக்க மற்றும் நம்பகமான ஜோதிட ஆலோசனைகள் வழங்கப்படுகின்றன.நேரடி சந்திப்பு, தொலைபேசி மற்றும் வாட்ஸ்அப் மூலம் ஆலோசனை பெறும் வசதியும் உள்ளது.
+</p><br>
+<p>Kalaimagal Jothidar Nilayam is a trusted traditional astrology center led by
+<strong>N. Mohanraj</strong>, a hereditary astrologer with over 30 years of experience.
+We provide accurate horoscope analysis, marriage matching, numerology consultation, Vastu guidance, spiritual remedies, and personalized astrology services based on traditional Vedic principles.Expert guidance is offered for marriage, career, business, education, foreign opportunities, family matters, and relationship concerns.Consultations are available through direct appointments, phone calls, and WhatsApp.
+</p></section>
+
+<section class="section">
+<div class="stats">
+<div class="stat"><h3>30+</h3><p>Years Guidance</p></div>
+<div class="stat"><h3>5000+</h3><p>Consultations</p></div>
+<div class="stat"><h3>98%</h3><p>Client Satisfaction</p></div>
+<div class="stat"><h3>Online</h3><p>Worldwide Support</p></div>
+</div>
+</section>
+
+<section class="section" id="services">
+<h2 class="title">🔯 Our Services | எங்கள் சேவைகள்</h2>
+<div class="grid">
+
+<div class="card">
+<h3>🔮 ஜாதகம் கணித்தல் மற்றும் குறிப்பு</h3>
+<p>Horoscope Reading & Writing</p>
+</div>
+
+<div class="card">
+<h3>💍 திருமண பொருத்தம்</h3>
+<p>Marriage Matching / Kundali Matching</p>
+</div>
+
+<div class="card">
+<h3>🏡 வாஸ்து ஆலோசனை</h3>
+<p>Vaastu Consultation</p>
+</div>
+
+<div class="card">
+<h3>🔢 எண் கணித ஆலோசனை</h3>
+<p>Numerology Consultation</p>
+</div>
+
+<div class="card">
+<h3>🔯 பிரசன்ன ஜோதிடம்</h3>
+<p>Prasannam Astrology</p>
+</div>
+
+<div class="card">
+<h3>💼 தொழில் மற்றும் வியாபார ஆலோசனை</h3>
+<p>Career & Business Guidance</p>
+</div>
+
+<div class="card">
+<h3>👨‍👩‍👧 குடும்ப மற்றும் உறவு ஆலோசனை</h3>
+<p>Family & Relationship Guidance</p>
+</div>
+
+<div class="card">
+<h3>📱 தொலைபேசி & வாட்ஸ்அப் ஆலோசனை</h3>
+<p>Phone & WhatsApp Consultation</p>
+</div>
+
+</div>
+</section>
+
+
+<section class="section">
+
+<h2 class="title">
+🌟 Why Choose Us? | ஏன் எங்களை தேர்வு செய்ய வேண்டும்?
+</h2>
+
+<div class="grid">
+<div class="card">
+    <h3>துல்லியமான ஜாதக ஆய்வு</h3>
+    <p>Accurate Horoscope Analysis</p>
+</div>
+
+<div class="card">
+    <h3>பாரம்பரிய வேத ஜோதிட முறைகள்</h3>
+    <p>Traditional Vedic Methods</p>
+</div>
+
+<div class="card">
+    <h3>தனிப்பட்ட கவனம் மற்றும் வழிகாட்டல்</h3>
+    <p>Personal Attention & Guidance</p>
+</div>
+
+<div class="card">
+    <h3>எளிய மற்றும் பயனுள்ள பரிகாரங்கள்</h3>
+    <p>Simple & Effective Remedies</p>
+</div>
+
+<div class="card">
+    <h3>நேரடி மற்றும் ஆன்லைன் ஆலோசனை</h3>
+    <p>Online & Offline Consultation</p>
+</div>
+
+<div class="card">
+    <h3>குடும்பங்களின் நம்பிக்கைக்குரியவர்</h3>
+    <p>Trusted by Many Families</p>
+</div>
+</div>
+</section>
+
+<section class="section" id="remedies">
+<h2 class="title">🪷 Spiritual Remedies | பரிகாரங்கள்</h2>
+<div class="grid">
+<div class="card">
+    <h3>🏛️ கோவில் வழிகாட்டல்</h3>
+    <p>Temple Visit Guidance</p>
+</div>
+
+<div class="card">
+    <h3>💎 ரத்தின பரிந்துரை</h3>
+    <p>Gemstone Recommendations</p>
+</div>
+
+<div class="card">
+    <h3>🙏 தினசரி ஆன்மீக நடைமுறைகள்</h3>
+    <p>Daily Spiritual Practices</p>
+</div>
+
+<div class="card">
+    <h3>🪷 தோஷ நிவாரண முறைகள்</h3>
+    <p>Dosha Nivarthi Methods</p>
+</div>
+
+</div>
+
+</section>
+</div>
+</section>
+<!--
+<section class="section">
+<h2 class="title">📸 Divine Gallery</h2>
+<div class="gallery">
+<img src="https://picsum.photos/500/350?1">
+<img src="https://picsum.photos/500/350?2">
+<img src="https://picsum.photos/500/350?3">
+<img src="https://picsum.photos/500/350?4">
+</div>
+</section>
+-->
+<section class="section" id="reviews">
+<h2 class="title">💬 Client Feedback</h2>
+<div class="grid">
+<div class="card">⭐⭐⭐⭐⭐<br>Very accurate prediction regarding my career.</div>
+<div class="card">⭐⭐⭐⭐⭐<br>Marriage matching guidance was extremely helpful.</div>
+<div class="card">⭐⭐⭐⭐⭐<br>Simple remedies brought positive changes to my life.</div>
+<div class="card">⭐⭐⭐⭐⭐<br>என் தொழில் குறித்து துல்லியமான கணிப்பு கிடைத்தது.</div>
+</div>
+</section>
+
+<section class="section">
+<h2 class="title">📅 Book Appointment</h2>
+<form id="appointmentForm">
+
+<input type="text"
+id="name"
+placeholder="Your Name"
+required>
+
+<input type="tel"
+id="phone"
+placeholder="Phone Number"
+required>
+
+<textarea
+id="query"
+placeholder="Your Query"
+required></textarea>
+
+<button type="submit">
+📅 Book Appointment
+</button>
+
+</form>
+</section>
+<section id="faq" class="section">
+
+<h2 class="title">❓ Frequently Asked Questions</h2>
+
+<div class="faq-container">
+
+<div class="faq-item">
+<button class="faq-question">
+How can I book an appointment? 📅
+</button>
+<div class="faq-answer">
+<p>
+You can call or WhatsApp us at
+<b>+91 90925 44455</b>
+to book your consultation.
+</p>
+</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-question">
+Do you provide online consultation? 📱
+</button>
+<div class="faq-answer">
+<p>
+Yes. We provide Phone and WhatsApp consultations for clients across India and abroad.
+</p>
+</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-question">
+What details are required for horoscope analysis? 🔮
+</button>
+<div class="faq-answer">
+<p>
+Date of Birth, Time of Birth and Place of Birth are required for accurate horoscope analysis.
+</p>
+</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-question">
+Do you offer marriage matching services? 💍
+</button>
+<div class="faq-answer">
+<p>
+Yes. We provide detailed Porutham and Kundali matching along with marriage compatibility guidance.
+</p>
+</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-question">
+Can you suggest remedies for Doshas? 🪷
+</button>
+<div class="faq-answer">
+<p>
+Yes. Based on horoscope analysis, suitable spiritual remedies, mantra guidance, temple visits and gemstone recommendations are provided.
+</p>
+</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-question">
+What are your consultation timings? 🕒
+</button>
+<div class="faq-answer">
+<p>
+Daily from 9:00 AM to 6:00 PM.
+</p>
+</div>
+</div>
+
+</div>
+
+</section>
+<section class="section" id="contact">
+<div class="contact">
+<h2 class="title">📍 Contact Us</h2>
+<p><b>Kalaimagal Jothidar Nilayam</b></p>
+<p>Sathy Main Road, Opposite New Police Station,<br>
+HDFC Bank Building, Ground Floor,<br>
+Kovilpalayam, Coimbatore – 641107</p>
+<br>
+<p>📞 +91 90925 44455 | +91 97861 74822</p>
+<p>💬 WhatsApp: 90925 44455</p>
+<p>🕒 9:00 AM – 6:00 PM (All Days)</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3542.5943279725557!2d77.0355082!3d11.13614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f92ff0bb7575%3A0xd5eee83b601927e4!2z4K6V4K6y4K-I4K6u4K6V4K6z4K-NIOCunOCvi-CupOCuv-CunyDgrqjgrr_grrLgr4jgrq_grq7gr40gLCBOLiDgrq7gr4vgrpXgrqngr43grrDgrr7grpzgr40!5e1!3m2!1sen!2sin!4v1781200083733!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</section>
+
+<footer>
+🌙 "Let the stars guide your life with clarity and wisdom."<br>
+"நட்சத்திரங்கள் உங்கள் வாழ்க்கையை தெளிவுடனும் ஞானத்துடனும் வழிநடத்தட்டும்."
+</footer>
+
+<script>
+
+const faqs = document.querySelectorAll(".faq-item");
+
+faqs.forEach(item => {
+
+const question = item.querySelector(".faq-question");
+
+question.addEventListener("click", () => {
+
+item.classList.toggle("active");
+
+});
+
+});
+
+</script>
+<div class="floating-buttons">
+
+    <a href="https://wa.me/919092544455"
+       class="whatsapp-btn"
+       target="_blank">
+        💬 WhatsApp
+    </a>
+
+    <a href="tel:+919092544455"
+       class="call-btn">
+        📞 Call Now
+    </a>
+
+</div>
+<script>
+
+document
+.getElementById("appointmentForm")
+.addEventListener("submit", function(e){
+
+e.preventDefault();
+
+let name =
+document.getElementById("name").value;
+
+let phone =
+document.getElementById("phone").value;
+
+let query =
+document.getElementById("query").value;
+
+let message =
+`🪔 New Appointment Request
+
+Name: ${name}
+
+Phone: ${phone}
+
+Query: ${query}`;
+
+let whatsappURL =
+`https://wa.me/919092544455?text=${encodeURIComponent(message)}`;
+
+window.open(whatsappURL, "_blank");
+
+});
+
+</script>
+</body>
+</html>
